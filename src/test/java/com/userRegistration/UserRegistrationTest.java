@@ -50,6 +50,13 @@ public class UserRegistrationTest {
         Assert.assertFalse(result1);
 
     }
+    @Test
+    public void validateFirstName_ifContainsSpecialChars_returnFalse()
+    {
+        boolean result1= validationOfuser.validateFirstName("Xfr@a1");
+        Assert.assertFalse(result1);
+
+    }
 
     /////////////////////////////////////////////////
     @Test
@@ -92,6 +99,13 @@ public class UserRegistrationTest {
     public void validateLastName_lessThan3char_returnFalse()
     {
         boolean result1= validationOfuser.validateLastName("As");
+        Assert.assertFalse(result1);
+
+    }
+    @Test
+    public void validateLastName_ifContainsSpecialChars_returnFalse()
+    {
+        boolean result1= validationOfuser.validateFirstName("Xfr@a1");
         Assert.assertFalse(result1);
 
     }
