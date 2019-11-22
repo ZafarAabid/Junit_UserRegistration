@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.userRegistration.UserRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-22T11:12:49" hostname="FH400" time="0.009">
+  <properties/>
+  <testcase name="validateName_ifPatternMatch_returnBoolean" classname="com.userRegistration.UserRegistrationTest" time="0.009"/>
+  <system-out><![CDATA[false
+false
+true
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
