@@ -95,4 +95,43 @@ public class UserRegistrationTest {
         Assert.assertFalse(result1);
 
     }
+    /////////////////////////////////////////////////
+    @Test
+    public void validateMobileNumber_ifAllNumbers_Proper12_returnTrue()
+    {
+        boolean result= validationOfuser.validateMobileNumber("91 8087241183");
+        Assert.assertTrue(result);
+
+    }
+    @Test
+    public void validateMobileNumber_ifNumbers_lessThan12_returnFalse()
+    {
+        boolean result= validationOfuser.validateMobileNumber("91 87241183");
+        Assert.assertFalse(result);
+
+    }
+    @Test
+    public void validateMobileNumber_ifNumbers_greaterThan12_returnFalse()
+    {
+        boolean result= validationOfuser.validateMobileNumber("91 808724118300");
+        Assert.assertFalse(result);
+
+    }
+    @Test
+    public void validateMobileNumber_ifNumbers_containCharachtersAtLast_returnFalse()
+    {
+        boolean result= validationOfuser.validateMobileNumber("91 8724asdAA");
+        Assert.assertFalse(result);
+
+    }
+    @Test
+    public void validateMobileNumber_ifNumbers_containCharachtersInStart_returnFalse()
+    {
+        boolean result= validationOfuser.validateMobileNumber("AA 87241183");
+        Assert.assertFalse(result);
+
+    }
+    //////////////////////////////////////////////////////////
+
+
 }

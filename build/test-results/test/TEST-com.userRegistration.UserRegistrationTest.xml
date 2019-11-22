@@ -1,30 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.userRegistration.UserRegistrationTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2019-11-22T12:35:19" hostname="FH400" time="0.029">
+<testsuite name="com.userRegistration.UserRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-22T12:53:18" hostname="FH400" time="0.008">
   <properties/>
-  <testcase name="validateFirstName_allNumber_returnFalse" classname="com.userRegistration.UserRegistrationTest" time="0.005"/>
-  <testcase name="validateLastName_ifPatternMatch_onlyCapitalLetters_returnTrue" classname="com.userRegistration.UserRegistrationTest" time="0.001"/>
-  <testcase name="validateFirstName_onlySmallLetters_returnFalse" classname="com.userRegistration.UserRegistrationTest" time="0.001"/>
-  <testcase name="validateFirstName_lessThan3char_returnFalse" classname="com.userRegistration.UserRegistrationTest" time="0.002"/>
-  <testcase name="validateFirstName_AtleastOneCapitalRemainingSmallLetter_returnTrue" classname="com.userRegistration.UserRegistrationTest" time="0.001"/>
-  <testcase name="validateFirstName_combineChars_returnFalse" classname="com.userRegistration.UserRegistrationTest" time="0.001"/>
-  <testcase name="validateFirstName_ifPatternMatch_onlyCapitalLetters_returnTrue" classname="com.userRegistration.UserRegistrationTest" time="0.001"/>
-  <testcase name="validateLastName_AtleastOneCapitalRemainingSmallLetter_returnTrue" classname="com.userRegistration.UserRegistrationTest" time="0.0"/>
-  <testcase name="validateLastName_onlySmallLetters_returnFalse" classname="com.userRegistration.UserRegistrationTest" time="0.0"/>
-  <testcase name="validateLastName_combineChars_returnFalse" classname="com.userRegistration.UserRegistrationTest" time="0.001"/>
-  <testcase name="validateLastName_lessThan3char_returnFalse" classname="com.userRegistration.UserRegistrationTest" time="0.001"/>
-  <testcase name="validateLastName_allNumber_returnFalse" classname="com.userRegistration.UserRegistrationTest" time="0.0"/>
+  <testcase name="validateMobileNumber_ifNumbers_containCharachtersInStart_returnFalse" classname="com.userRegistration.UserRegistrationTest" time="0.008"/>
   <system-out><![CDATA[false
-true
-false
-false
-true
-false
-true
-true
-false
-false
-false
-false
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
