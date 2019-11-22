@@ -52,4 +52,47 @@ public class UserRegistrationTest {
     }
 
     /////////////////////////////////////////////////
+    @Test
+    public void validateLastName_AtleastOneCapitalRemainingSmallLetter_returnTrue()
+    {
+        boolean result= validationOfuser.validateLastName("Zafar");
+        Assert.assertTrue(result);
+
+    }
+    @Test
+    public void validateLastName_ifPatternMatch_onlyCapitalLetters_returnTrue()
+    {
+        boolean result1= validationOfuser.validateLastName("ASDFGHJKL");
+        Assert.assertTrue(result1);
+
+    }
+    @Test
+    public void validateLastName_combineChars_returnFalse()
+    {
+        boolean result= validationOfuser.validateLastName("Zafar123");
+        Assert.assertFalse(result);
+
+    }
+    @Test
+    public void validateLastName_allNumber_returnFalse()
+    {
+        boolean result1= validationOfuser.validateLastName("123456");
+        Assert.assertFalse(result1);
+
+    }
+    @Test
+    public void validateLastName_onlySmallLetters_returnFalse()
+    {
+        boolean result1= validationOfuser.validateLastName("asdbads");
+        Assert.assertFalse(result1);
+
+    }
+
+    @Test
+    public void validateLastName_lessThan3char_returnFalse()
+    {
+        boolean result1= validationOfuser.validateLastName("As");
+        Assert.assertFalse(result1);
+
+    }
 }

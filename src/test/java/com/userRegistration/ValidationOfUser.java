@@ -14,4 +14,14 @@ public class ValidationOfUser {
         else
             return false;
     }
+
+    public boolean validateLastName(String lastName) {
+        Pattern lastnamePattern = Pattern.compile("^[A-Z][a-zA-Z]{3,}$");
+        Matcher matcher = lastnamePattern.matcher(lastName);
+        System.out.println(matcher.matches());
+        if (matcher.matches())
+            return true;
+        else
+            return false;
+    }
 }
