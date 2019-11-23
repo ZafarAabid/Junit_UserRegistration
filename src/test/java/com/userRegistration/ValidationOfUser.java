@@ -41,7 +41,7 @@ public class ValidationOfUser {
     }
     public boolean validateEmail(String Email) {
 
-        Pattern EmailPattern = Pattern.compile("^[0-9a-zA-Z]+[._+-]{0,1}[0-9a-zA-Z]+[@][a-zA-Z]+[.][a-zA-Z]{2,3}([.][a-z]{2}){0,1}$");
+        Pattern EmailPattern = Pattern.compile("^[0-9a-zA-Z]+[._+-]{0,1}[0-9a-zA-Z]+[@][a-zA-Z0-9]+[.][a-zA-Z]{2,3}([.][a-z]{2,3}){0,1}$");
         Matcher matcher = EmailPattern.matcher(Email);
         System.out.println(matcher.matches());
         if (matcher.matches())
