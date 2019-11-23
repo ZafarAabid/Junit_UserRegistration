@@ -3,6 +3,10 @@
 
 public class ValidationOfUser {
     private String firstName="^[A-Z][a-zA-Z]{3,}";
+    private String lastName="^[A-Z][a-zA-Z]{3,}";
+    private String mobileNumber="^[0-9]{2}[ ][0-9]{10}";
+    private String EmailId="^[0-9a-zA-Z]+[._+-]{0,1}[0-9a-zA-Z]+[@][a-zA-Z]+[.][a-zA-Z]{2,3}([.][a-z]{2}){0,1}";
+
     public boolean validateFirstName(String firstName) {
         Pattern firstName_pattern = Pattern.compile("^[A-Z][a-zA-Z]{3,}$");
         Matcher matcher = firstName_pattern.matcher(firstName);
@@ -27,6 +31,16 @@ public class ValidationOfUser {
 
         Pattern mobileNumberPattern = Pattern.compile("^[0-9]{2}[ ][0-9]{10}$");
         Matcher matcher = mobileNumberPattern.matcher(mobileNumber);
+        System.out.println(matcher.matches());
+        if (matcher.matches())
+            return true;
+        else
+            return false;
+    }
+    public boolean validateEmail(String Email) {
+
+        Pattern EmailPattern = Pattern.compile("^[0-9a-zA-Z]+[._+-]{0,1}[0-9a-zA-Z]+[@][a-zA-Z0-9]+[.][a-zA-Z]{2,3}([.][a-z]{2,3}){0,1}$");
+        Matcher matcher = EmailPattern.matcher(Email);
         System.out.println(matcher.matches());
         if (matcher.matches())
             return true;

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.userRegistration.UserEmailTest" tests="21" skipped="0" failures="0" errors="0" timestamp="2019-11-23T04:51:46" hostname="FH400" time="0.128">
+  <properties/>
+  <testcase name="CollectionInput_toValidateEmail_ifRequirementMetReturnTrue[0]" classname="com.userRegistration.UserEmailTest" time="0.007"/>
+  <testcase name="CollectionInput_toValidateEmail_ifRequirementMetReturnTrue[1]" classname="com.userRegistration.UserEmailTest" time="0.011"/>
+  <testcase name="CollectionInput_toValidateEmail_ifRequirementMetReturnTrue[2]" classname="com.userRegistration.UserEmailTest" time="0.005"/>
+  <testcase name="CollectionInput_toValidateEmail_ifRequirementMetReturnTrue[3]" classname="com.userRegistration.UserEmailTest" time="0.005"/>
+  <testcase name="CollectionInput_toValidateEmail_ifRequirementMetReturnTrue[4]" classname="com.userRegistration.UserEmailTest" time="0.002"/>
+  <testcase name="CollectionInput_toValidateEmail_ifRequirementMetReturnTrue[5]" classname="com.userRegistration.UserEmailTest" time="0.008"/>
+  <testcase name="CollectionInput_toValidateEmail_ifRequirementMetReturnTrue[6]" classname="com.userRegistration.UserEmailTest" time="0.003"/>
+  <testcase name="CollectionInput_toValidateEmail_ifRequirementMetReturnTrue[7]" classname="com.userRegistration.UserEmailTest" time="0.005"/>
+  <testcase name="CollectionInput_toValidateEmail_ifRequirementMetReturnTrue[8]" classname="com.userRegistration.UserEmailTest" time="0.002"/>
+  <testcase name="CollectionInput_toValidateEmail_ifRequirementMetReturnTrue[9]" classname="com.userRegistration.UserEmailTest" time="0.003"/>
+  <testcase name="CollectionInput_toValidateEmail_ifRequirementMetReturnTrue[10]" classname="com.userRegistration.UserEmailTest" time="0.003"/>
+  <testcase name="CollectionInput_toValidateEmail_ifRequirementMetReturnTrue[11]" classname="com.userRegistration.UserEmailTest" time="0.002"/>
+  <testcase name="CollectionInput_toValidateEmail_ifRequirementMetReturnTrue[12]" classname="com.userRegistration.UserEmailTest" time="0.006"/>
+  <testcase name="CollectionInput_toValidateEmail_ifRequirementMetReturnTrue[13]" classname="com.userRegistration.UserEmailTest" time="0.001"/>
+  <testcase name="CollectionInput_toValidateEmail_ifRequirementMetReturnTrue[14]" classname="com.userRegistration.UserEmailTest" time="0.001"/>
+  <testcase name="CollectionInput_toValidateEmail_ifRequirementMetReturnTrue[15]" classname="com.userRegistration.UserEmailTest" time="0.006"/>
+  <testcase name="CollectionInput_toValidateEmail_ifRequirementMetReturnTrue[16]" classname="com.userRegistration.UserEmailTest" time="0.006"/>
+  <testcase name="CollectionInput_toValidateEmail_ifRequirementMetReturnTrue[17]" classname="com.userRegistration.UserEmailTest" time="0.004"/>
+  <testcase name="CollectionInput_toValidateEmail_ifRequirementMetReturnTrue[18]" classname="com.userRegistration.UserEmailTest" time="0.002"/>
+  <testcase name="CollectionInput_toValidateEmail_ifRequirementMetReturnTrue[19]" classname="com.userRegistration.UserEmailTest" time="0.004"/>
+  <testcase name="CollectionInput_toValidateEmail_ifRequirementMetReturnTrue[20]" classname="com.userRegistration.UserEmailTest" time="0.001"/>
+  <system-out><![CDATA[true
+true
+true
+true
+true
+true
+true
+true
+true
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
