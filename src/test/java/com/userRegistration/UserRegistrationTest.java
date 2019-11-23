@@ -1,6 +1,7 @@
+package com.userRegistration;
+
 //----------UserRegistrationCode--------------
 //---------------Greetings----------------
-package com.userRegistration;
 
 import org.junit.Assert;
 import org.junit.Test;
