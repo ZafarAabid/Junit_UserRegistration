@@ -2,6 +2,9 @@ package com.userRegistration;
 //----------UserRegistrationCode--------------
 //---------------Greetings---------------- 
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 public class ValidationOfUser {
     private String firstName="^[A-Z][a-zA-Z]{3,}";
     private String lastName="^[A-Z][a-zA-Z]{3,}";
