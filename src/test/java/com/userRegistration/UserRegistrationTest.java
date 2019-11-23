@@ -145,7 +145,5 @@ public class UserRegistrationTest {
         Assert.assertFalse(result);
 
     }
-    //////////////////////////////////////////////////////////
-
 
 }
