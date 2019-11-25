@@ -4,7 +4,6 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import javax.xml.bind.ValidationEvent;
-
 public class UserRegistrationTest {
     ValidationOfUser validationOfuser=new ValidationOfUser();
     @Test
