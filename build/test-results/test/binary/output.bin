@@ -1,6 +1,18 @@
+
+2 validatePassword_ifContainsNoNumeric_returnFalse
 false
+
+: validatePassword_ifContainsNoLowercaseLetter_returnFalse
 false
+
+P validatePassword_ifContainsAtleastOneUpperOneLowerOneDigitOneSpChar_returnTrue
 true
+
+6 validatePassword_ifContainsNoSpecialChar_returnFalse
 false
+
+2validatePassword_iflengthIsLessThan8_returnFalse 
 false
+
+: validatePassword_ifContainsNoUppercaseLetter_returnFalse
 false
