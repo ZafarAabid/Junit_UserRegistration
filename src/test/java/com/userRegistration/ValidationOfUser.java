@@ -51,4 +51,14 @@ public class ValidationOfUser {
         else
             return false;
     }
+    public boolean validatePassword(String password) {
+
+        Pattern EmailPattern = Pattern.compile("((?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%]){1}.{8,})$");
+        Matcher matcher = EmailPattern.matcher(password);
+        System.out.println(matcher.matches());
+        if (matcher.matches())
+            return true;
+        else
+            return false;
+    }
 }
